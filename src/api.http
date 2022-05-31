@@ -1,0 +1,23 @@
+###
+POST http://localhost:3001/api/users
+content-type: application/json
+
+{
+  "email": "ts.erka@gmail.com",
+  "name": "RK"
+}
+
+###
+GET http://localhost:3001/api/users
+###
+GET http://localhost:3001/api/users/ts.erka@gmail.com
+###
+PUT http://localhost:3001/api/users
+Content-Type: application/json
+
+{
+  "email": "ts.erka@gmail.com",
+  "name": "Erdenemunkh Tsenkherbor"
+}
+###
+DELETE http://localhost:3001/api/users/62962530be7fae613eea3226
